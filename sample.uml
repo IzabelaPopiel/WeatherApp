@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sample</OriginalElement>
+  <nodes>
+    <node x="1637.4214809384162" y="1463.0">sample.DisplayCurrentWeather</node>
+    <node x="1887.4214809384162" y="0.0">sample.Main</node>
+    <node x="1145.625" y="0.0">sample.Observer</node>
+    <node x="608.0" y="1451.5">sample.DisplayTxtArea</node>
+    <node x="863.5620723362657" y="1429.5">sample.WeatherDataBase</node>
+    <node x="931.5785190615836" y="206.0">sample.Observable</node>
+    <node x="992.5833333333333" y="1848.0">sample.Controller</node>
+    <node x="709.5785190615836" y="161.0">sample.WeatherRequest</node>
+    <node x="1412.4214809384162" y="1451.5">sample.DisplayForecast</node>
+    <node x="0.0" y="1396.5">sample.DisplayChart</node>
+    <node x="1187.4214809384162" y="1451.5">sample.DisplayIcon</node>
+    <node x="317.0" y="1209.0">sample.DisplayStatistics</node>
+    <node x="964.2451857282504" y="406.0">sample.WeatherInfo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.WeatherInfo" target="sample.WeatherRequest">
+      <point x="-60.5" y="-356.5" />
+      <point x="1024.7451857282504" y="376.0" />
+      <point x="861.0785190615836" y="376.0" />
+      <point x="50.5" y="92.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.DisplayTxtArea">
+      <point x="-74.25" y="-411.0" />
+      <point x="1066.8333333333333" y="1808.0" />
+      <point x="710.5" y="1808.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="sample.DisplayIcon" target="sample.Observer">
+      <point x="51.25" y="-37.0" />
+      <point x="1341.1714809384162" y="141.0" />
+      <point x="1304.034090909091" y="141.0" />
+      <point x="55.90909090909088" y="25.5" />
+    </edge>
+    <edge source="sample.WeatherInfo" target="sample.Observer">
+      <point x="100.83333333333326" y="-356.5" />
+      <point x="1186.0785190615836" y="386.0" />
+      <point x="1261.125" y="386.0" />
+      <point x="1261.125" y="141.0" />
+      <point x="1285.3977272727273" y="141.0" />
+      <point x="37.27272727272725" y="25.5" />
+    </edge>
+    <edge source="sample.DisplayIcon" target="sample.WeatherInfo">
+      <point x="-51.25" y="-37.0" />
+      <point x="1238.6714809384162" y="1169.0" />
+      <point x="1151.2451857282504" y="1169.0" />
+      <point x="66.0" y="356.5" />
+    </edge>
+    <edge source="sample.DisplayForecast" target="sample.Observer">
+      <point x="51.25" y="-37.0" />
+      <point x="1566.1714809384162" y="131.0" />
+      <point x="1322.6704545454545" y="131.0" />
+      <point x="74.5454545454545" y="25.5" />
+    </edge>
+    <edge source="sample.DisplayStatistics" target="sample.Observer">
+      <point x="-67.75" y="-279.5" />
+      <point x="384.75" y="81.0" />
+      <point x="1173.5795454545455" y="81.0" />
+      <point x="-74.5454545454545" y="25.5" />
+    </edge>
+    <edge source="sample.DisplayStatistics" target="sample.WeatherInfo">
+      <point x="67.75" y="-279.5" />
+      <point x="520.25" y="1159.0" />
+      <point x="997.2451857282504" y="1159.0" />
+      <point x="-88.0" y="356.5" />
+    </edge>
+    <edge source="sample.DisplayCurrentWeather" target="sample.Observer">
+      <point x="51.25" y="-25.5" />
+      <point x="1791.1714809384162" y="121.0" />
+      <point x="1341.306818181818" y="121.0" />
+      <point x="93.18181818181813" y="25.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.DisplayIcon">
+      <point x="74.25" y="-411.0" />
+      <point x="1215.3333333333333" y="1808.0" />
+      <point x="1289.9214809384162" y="1808.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="sample.DisplayForecast" target="sample.WeatherInfo">
+      <point x="-51.25" y="-37.0" />
+      <point x="1463.6714809384162" y="1159.0" />
+      <point x="1173.2451857282504" y="1159.0" />
+      <point x="88.0" y="356.5" />
+    </edge>
+    <edge source="sample.WeatherInfo" target="sample.Observable">
+      <point x="-20.16666666666663" y="-356.5" />
+      <point x="1065.0785190615836" y="386.0" />
+      <point x="1050.0785190615836" y="386.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="sample.DisplayCurrentWeather" target="sample.WeatherInfo">
+      <point x="-51.25" y="-25.5" />
+      <point x="1688.6714809384162" y="1149.0" />
+      <point x="1195.2451857282504" y="1149.0" />
+      <point x="110.0" y="356.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.DisplayCurrentWeather">
+      <point x="133.6500000000001" y="-411.0" />
+      <point x="1274.7333333333333" y="1828.0" />
+      <point x="1739.9214809384162" y="1828.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.WeatherInfo">
+      <point x="14.849999999999909" y="-411.0" />
+      <point x="1155.9333333333332" y="1828.0" />
+      <point x="1138.0620723362658" y="1828.0" />
+      <point x="1138.0620723362658" y="1189.0" />
+      <point x="1107.2451857282504" y="1189.0" />
+      <point x="22.0" y="356.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.DisplayChart">
+      <point x="-133.64999999999986" y="-411.0" />
+      <point x="1007.4333333333334" y="1828.0" />
+      <point x="148.5" y="1828.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="sample.Observer" target="sample.WeatherInfo">
+      <point x="0.0" y="25.5" />
+      <point x="1248.125" y="121.0" />
+      <point x="1179.0785190615836" y="121.0" />
+      <point x="1179.0785190615836" y="366.0" />
+      <point x="1105.411852394917" y="366.0" />
+      <point x="20.166666666666742" y="-356.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.WeatherDataBase">
+      <point x="-44.549999999999955" y="-411.0" />
+      <point x="1096.5333333333333" y="1798.0" />
+      <point x="929.5620723362657" y="1798.0" />
+      <point x="-66.0" y="59.0" />
+    </edge>
+    <edge source="sample.Observable" target="sample.Observer">
+      <point x="0.0" y="-47.5" />
+      <point x="1050.0785190615836" y="111.0" />
+      <point x="1229.4886363636365" y="111.0" />
+      <point x="-18.636363636363626" y="25.5" />
+    </edge>
+    <edge source="sample.WeatherDataBase" target="sample.Observer">
+      <point x="-99.0" y="-59.0" />
+      <point x="896.5620723362657" y="1139.0" />
+      <point x="699.0785190615836" y="1139.0" />
+      <point x="699.0785190615836" y="101.0" />
+      <point x="1210.8522727272727" y="101.0" />
+      <point x="-37.27272727272725" y="25.5" />
+    </edge>
+    <edge source="sample.DisplayChart" target="sample.WeatherInfo">
+      <point x="74.25" y="-92.0" />
+      <point x="222.75" y="1149.0" />
+      <point x="975.2451857282504" y="1149.0" />
+      <point x="-110.0" y="356.5" />
+    </edge>
+    <edge source="sample.DisplayChart" target="sample.Observer">
+      <point x="-74.25" y="-92.0" />
+      <point x="74.25" y="71.0" />
+      <point x="1154.9431818181818" y="71.0" />
+      <point x="-93.18181818181824" y="25.5" />
+    </edge>
+    <edge source="sample.WeatherDataBase" target="sample.WeatherInfo">
+      <point x="-33.0" y="-59.0" />
+      <point x="962.5620723362657" y="1179.0" />
+      <point x="1041.2451857282504" y="1179.0" />
+      <point x="-44.0" y="356.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.DisplayForecast">
+      <point x="103.95000000000005" y="-411.0" />
+      <point x="1245.0333333333333" y="1818.0" />
+      <point x="1514.9214809384162" y="1818.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="sample.DisplayTxtArea" target="sample.WeatherInfo">
+      <point x="51.25" y="-37.0" />
+      <point x="761.75" y="1169.0" />
+      <point x="1019.2451857282504" y="1169.0" />
+      <point x="-66.0" y="356.5" />
+    </edge>
+    <edge source="sample.DisplayTxtArea" target="sample.Observer">
+      <point x="-51.25" y="-37.0" />
+      <point x="659.25" y="91.0" />
+      <point x="1192.215909090909" y="91.0" />
+      <point x="-55.90909090909088" y="25.5" />
+    </edge>
+    <edge source="sample.Controller" target="sample.DisplayStatistics">
+      <point x="-103.94999999999982" y="-411.0" />
+      <point x="1037.1333333333334" y="1818.0" />
+      <point x="452.5" y="1818.0" />
+      <point x="0.0" y="279.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9246704331450094" x="1254.0" y="136.4714867617108" />
+  <SelectedNodes>
+    <node>sample.DisplayStatistics</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

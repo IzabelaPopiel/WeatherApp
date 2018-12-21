@@ -1,0 +1,122 @@
+[
+  {
+    "observers": [],
+    "temperature": 4.0,
+    "humidity": 93.0,
+    "pressure": 1002.0,
+    "description": "light rain",
+    "city": "Wroclaw",
+    "icon": "10n",
+    "localTime": {
+      "hour": 22,
+      "minute": 5,
+      "second": 35,
+      "nano": 514808300
+    },
+    "minTempForecast": 6.91,
+    "maxTempForecast": 6.91,
+    "humidityForecast": 89.0,
+    "pressureForecast": 996.76,
+    "descriptionForecast": "light rain",
+    "iconForecast": "10n",
+    "dateForecast": "2018-12-22 03:00:00",
+    "interval": 0.0,
+    "isRunning": false
+  },
+  {
+    "observers": [],
+    "temperature": 4.0,
+    "humidity": 93.0,
+    "pressure": 1002.0,
+    "description": "light rain",
+    "city": "Wroclaw",
+    "icon": "10n",
+    "localTime": {
+      "hour": 22,
+      "minute": 6,
+      "second": 37,
+      "nano": 86664200
+    },
+    "minTempForecast": 6.91,
+    "maxTempForecast": 6.91,
+    "humidityForecast": 89.0,
+    "pressureForecast": 996.76,
+    "descriptionForecast": "light rain",
+    "iconForecast": "10n",
+    "dateForecast": "2018-12-22 03:00:00",
+    "interval": 0.0,
+    "isRunning": false
+  },
+  {
+    "observers": [],
+    "temperature": 4.0,
+    "humidity": 93.0,
+    "pressure": 1002.0,
+    "description": "light rain",
+    "city": "Wroclaw",
+    "icon": "10n",
+    "localTime": {
+      "hour": 22,
+      "minute": 8,
+      "second": 15,
+      "nano": 670100600
+    },
+    "minTempForecast": 6.91,
+    "maxTempForecast": 6.91,
+    "humidityForecast": 89.0,
+    "pressureForecast": 996.76,
+    "descriptionForecast": "light rain",
+    "iconForecast": "10n",
+    "dateForecast": "2018-12-22 03:00:00",
+    "interval": 0.0,
+    "isRunning": false
+  },
+  {
+    "observers": [],
+    "temperature": 4.0,
+    "humidity": 93.0,
+    "pressure": 1002.0,
+    "description": "light rain",
+    "city": "Wroclaw",
+    "icon": "10n",
+    "localTime": {
+      "hour": 22,
+      "minute": 9,
+      "second": 17,
+      "nano": 21436300
+    },
+    "minTempForecast": 6.91,
+    "maxTempForecast": 6.91,
+    "humidityForecast": 89.0,
+    "pressureForecast": 996.76,
+    "descriptionForecast": "light rain",
+    "iconForecast": "10n",
+    "dateForecast": "2018-12-22 03:00:00",
+    "interval": 0.0,
+    "isRunning": false
+  },
+  {
+    "observers": [],
+    "temperature": 4.0,
+    "humidity": 93.0,
+    "pressure": 1002.0,
+    "description": "light rain",
+    "city": "Wroclaw",
+    "icon": "10n",
+    "localTime": {
+      "hour": 22,
+      "minute": 10,
+      "second": 17,
+      "nano": 959911000
+    },
+    "minTempForecast": 6.91,
+    "maxTempForecast": 6.91,
+    "humidityForecast": 89.0,
+    "pressureForecast": 996.76,
+    "descriptionForecast": "light rain",
+    "iconForecast": "10n",
+    "dateForecast": "2018-12-22 03:00:00",
+    "interval": 0.0,
+    "isRunning": false
+  }
+]

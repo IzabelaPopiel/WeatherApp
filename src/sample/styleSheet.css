@@ -1,0 +1,121 @@
+
+.sidebar {
+    -fx-background-color: #3FB79C;
+}
+
+.btn {
+    -fx-background-color: transparent;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+
+}
+
+.btn:hover {
+    -fx-background-color: #33907C;
+}
+
+.lbl {
+    -fx-background-color: transparent;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+
+}
+
+.title{
+    -fx-background-color: transparent;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+
+}
+
+.txtField {
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+
+    -fx-border: none;
+}
+
+
+.txtArea {
+    -fx-background-color: transparent;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #33907C;
+    -fx-font-size: 12;
+    -fx-control-inner-background: transparent;
+}
+
+
+.txtAreaStats {
+    -fx-background-color: transparent;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #33907C;
+    -fx-font-size: 12;
+}
+
+.axis {
+    -fx-font-size: 10;
+    -fx-tick-label-fill: #33907C;
+    -fx-font-family: "Century Gothic";
+    -fx-tick-length: 3;
+    -fx-minor-tick-length: 5;
+}
+
+.axis-tick-mark {
+    -fx-stroke: #33907C;
+    -fx-stroke-width: 0.5;
+}
+
+.axis-minor-tick-mark {
+    -fx-stroke: #33907C;
+    -fx-stroke-width: 0.5;
+}
+
+.axis:left {
+    -fx-border-color: transparent #33907C transparent transparent;
+}
+
+.axis:bottom {
+    -fx-border-color: #33907C transparent transparent transparent;
+}
+
+.chart {
+    -fx-background-color: transparent;
+}
+
+.chart-content {
+    -fx-background-color: transparent;
+}
+
+.chart-title {
+    -fx-font-size: 14;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: #33907C;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #ABE4D8;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #ABE4D8
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: #33907C, white;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #33907C;
+}
